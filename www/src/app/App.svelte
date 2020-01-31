@@ -8,7 +8,7 @@
 
 <style>
   h1.test {
-		color: darkkhaki;
+		color: black;
 		font-family: 'Comic Sans MS', cursive;
 		font-size: 1em;
 	}
@@ -29,7 +29,7 @@
   {#if $countJS}
     <p>Result JS: {$countJS}</p>
   {:else}
-    <p>Press button to runs!</p>
+    <p>Press button to run!</p>
   {/if}
   <Resetter />
 </div>
